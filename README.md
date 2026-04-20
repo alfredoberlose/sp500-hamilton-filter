@@ -11,11 +11,11 @@ Financial markets are non-linear. Classical models (like ARMA) often "average ou
 
 ### In-Sample Fragility Map
 The following chart shows how the model identifies historical regimes of instability, distinguishing between the "Bull" state and the "Crisis" state.
-![In-Sample Fragility Map](insample_fragility_map.png)
+![In-Sample Fragility Map](insample_fragility_graph.png)
 
 ### Out-of-Sample Real-Time Monitoring
 The model acts as a "probabilistic radar," updating as new observations arrive. Below is the performance during the post-2020 era, showing the spikes in crisis probability during inflationary shocks and geopolitical tensions.
-![Out-of-Sample Monitoring](oos_monitoring.png)
+![Out-of-Sample Monitoring](oos_monitoring_graph.png)
 
 ## Performance Metrics
 The Hamilton Filter provides superior diagnostic power compared to linear benchmarks:
