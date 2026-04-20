@@ -26,6 +26,7 @@ The Hamilton Filter provides superior diagnostic power compared to linear benchm
 | ARMA(1,1) Benchmark | 1.0647 | 0.7623 |
 
 ## Key Features
+- **Robust Statistical Inference:** The implementation utilizes Quasi-Maximum Likelihood (QML) with Sandwich Covariance Estimators. This ensures that the significance tests for regime transitions are robust to the fat-tailed nature of financial returns, avoiding the over-optimistic p-values common in standard Maximum Likelihood estimations.
 - **Adaptive Risk Management:** A Composite VaR formula that "jumps" based on filtered probabilities.
 - **Dynamic Hedging:** A threshold-based signal ($P > 0.5$) for de-risking portfolios during structural breaks.
 - **Python Implementation:** Modular code using `statsmodels` for Markov Regression.
